@@ -6,7 +6,3 @@ for i in range(1,n+1):
     total_sum+=(i*(2*i + (i-1)*2*i))//2
 print(total_sum)
 print(sum([(i*(2*i + (i-1)*2*i))//2 for i in range(1,n+1)]))
-
-##Uttam's code
-n,r = int(input()),int(input())
-print(r**3,(n*(n+1)//2)**2,sep='\n')
