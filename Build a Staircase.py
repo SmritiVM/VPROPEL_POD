@@ -22,20 +22,3 @@ if sum(nums)==n:
     print(*nums,sep='\t')
 else:
     print('Cannot be built')
-
-
-##LAR's code
-n=int(input())
-k=int(input())
-d=2
-z=[]
-a=(n-k*(k-1))/k
-if a%1!=0:
-    print("Cannot be built")
-else:
-    a=int(a)
-    for i in range(0,k,1):
-        z.append(a+i*d)
-        #print(a+i*d,sep="\t")
-    for i in z:
-        print(i,end="\t")
